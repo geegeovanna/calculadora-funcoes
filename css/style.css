@@ -1,0 +1,153 @@
+body{
+    background-color: #0f5050;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo{
+    padding: 10vh;
+}
+
+.b{
+    width: 500px;
+    margin: 3%;
+}
+
+.titulo-1{
+    padding-bottom: 10vh;
+    color: #ffffff;
+}
+
+.operacoes{
+    background-color: #000000;
+    color: #0f7a61;
+    margin-bottom: 8%;
+}
+
+.operacoes::placeholder{
+    color: #0f7a61;
+}
+
+.c{
+    margin-top: 4%;
+}
+
+.o{
+    cursor: pointer;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.radio{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    outline: none;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+
+}
+
+.radio::before{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    content: '';
+    background: #ffffff;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.radio:checked:before{
+    opacity: 1;
+}
+
+.resultado1{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.titulo-2{
+    padding-bottom: 10vh;
+    color: #ffffff;
+}
+
+.bhaskara{
+    background-color: #000000;
+    color: #0f7a61;
+    margin-bottom: 8%;
+}
+
+.bhaskara::placeholder{
+    color: #0f7a61;
+}
+
+.titulo-3{
+    padding-bottom: 10vh;
+    color: #ffffff;
+}
+
+.raiz{
+    background-color: #000000;
+    color: #0f7a61;
+    margin-bottom: 8%;
+}
+
+.raiz::placeholder{
+    color: #0f7a61;
+}
+
+.titulo-4{
+    padding-bottom: 10vh;
+    color: #ffffff;
+}
+
+.area{
+    background-color: #000000;
+    color: #0f7a61;
+    margin-bottom: 8%;
+}
+
+.area::placeholder{
+    color: #0f7a61;
+}
+
+.titulo-5{
+    padding-bottom: 10vh;
+    color: #ffffff;
+}
+
+.potencia{
+    background-color: #000000;
+    color: #0f7a61;
+    margin-bottom: 8%;
+}
+
+.potencia::placeholder{
+    color: #0f7a61;
+}
+
+.text{
+    color: #ffffff;
+}
+
+.resultado2{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.resultado3{
+    color: #ffffff;
+    font-size: 50px;
+}
